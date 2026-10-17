@@ -1,0 +1,14 @@
+# EAGLE backups and CAM jobs
+*.s#*
+*.b#*
+*.job
+*.epf
+
+# PSoC generated code
+codegentemp/
+Generated_Source/
+CortexM3/
+# OS clutter
+Thumbs.db
+Desktop.ini
+.DS_Store
