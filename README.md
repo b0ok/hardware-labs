@@ -17,6 +17,13 @@ Circuit design, PCB layout, microcontroller and FPGA work from the Computer Engi
 - **`lab9_pwm.vhd`**: PWM generator for a 50 MHz FPGA board. It outputs a 2 kHz signal, and a switch toggles the duty cycle between 70% and 10%.
 - **`full_adder.vhd`, `full_adder2.vhd`**: an early draft of a 4-bit ripple-carry adder (work in progress, doesn't compile as-is)
 
+## Digital logic simulation: NI Multisim (`multisim/`)
+Lab 7 decoder circuits built from 74-series logic chips and simulated in Multisim 14.1. They open in desktop Multisim or the free browser version at [multisim.com](https://www.multisim.com).
+- **`74138_3-to-8_decoder.ms14`**: a 74138 decoder that turns a 3-bit binary input into one of 8 active outputs
+- **`7447_bcd-to-7-segment_decoder.ms14`**: a 7447 decoder that drives a 7-segment display to show digits 0–9
+
+<!-- Add screenshots of both circuits here. -->
+
 ## Microcontrollers: PSoC 5LP (`psoc-5lp/`)
 Labs on the Cypress/Infineon CY8CKIT-059 kit, built in PSoC Creator: LED blinking (Lab 3/4) and a character LCD display (Lab 5). Each folder holds the `main.c` firmware and the project/schematic files.
 
@@ -25,4 +32,4 @@ Labs on the Cypress/Infineon CY8CKIT-059 kit, built in PSoC Creator: LED blinkin
 - `tinkercad/`: circuit simulations (Lab 3 and Lab 4 electric siren)
 
 ## Tools
-Autodesk EAGLE · PSoC Creator 4.4 · Intel Quartus Prime · AutoCAD · Tinkercad
+Autodesk EAGLE · PSoC Creator 4.4 · Intel Quartus Prime · NI Multisim · AutoCAD · Tinkercad
