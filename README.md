@@ -6,7 +6,6 @@ Circuit design, PCB layout, microcontroller and FPGA work from the Computer Engi
 | Project | What it is | Images |
 |---|---|---|
 | **Electronic siren** (Assignment 1) | Two LM555 timers: one slowly ramps the pitch of the other to drive a speaker | [schematic](eagle-pcb/Assignment1/electronic_siren_schematic.png) |
-| **Midterm power board** | MC33269 voltage regulator board with DC barrel jack and filtering | [schematic](eagle-pcb/Midterm/midterm_schematic.png) · [board](eagle-pcb/Midterm/midterm_board.png) |
 | **PIC programmer board** (Lab 1) | PIC16F84A circuit with programming header, crystal and 5 V regulator | [schematic](eagle-pcb/Lab1/lab1_schematic.png) · [board](eagle-pcb/Lab1/lab1_board.png) |
 | **Low-pass & band-pass filters** (Lab 2) | Analog filter circuits and their layouts | [LPF](eagle-pcb/TN_project/low_pass_filter_schematic.png) · [BPF](eagle-pcb/TN_project/band_pass_filter_schematic.png) |
 | **LED blinker** (Week 3) | Through-hole blinker circuit | [schematic](eagle-pcb/WEEK3/blinker_schematic.png) · [board](eagle-pcb/WEEK3/blinker_board.png) |
@@ -28,7 +27,7 @@ Lab 7 decoder circuits built from 74-series logic chips and simulated in Multisi
 Labs on the Cypress/Infineon CY8CKIT-059 kit, built in PSoC Creator: LED blinking (Lab 3/4) and a character LCD display (Lab 5). Each folder holds the `main.c` firmware and the project/schematic files.
 
 ## Other
-- `autocad/`: 2D drafting exercises and final exam drawing (`.dwg`, opens in [Autodesk Viewer](https://viewer.autodesk.com))
+- `autocad/`: 2D drafting exercises (`.dwg`, opens in [Autodesk Viewer](https://viewer.autodesk.com))
 - `tinkercad/`: circuit simulations (Lab 3 and Lab 4 electric siren)
 
 ## Tools
